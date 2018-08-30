@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ThogaKadeFinal.jnlp">
+  <information>
+    <title>ThogaKadeFinal</title>
+    <vendor>SDMROX</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ThogaKadeFinal.jar" size="191793" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2401594" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.42-bin.jar" size="996444" download="eager" />
+    <jar href="lib\scenicView.jar" size="524264" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ThogaKadeFinal" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="lk.ijse.pos.main.StartUp"  name="ThogaKadeFinal" />
+  <update check="always"/>
+</jnlp>
